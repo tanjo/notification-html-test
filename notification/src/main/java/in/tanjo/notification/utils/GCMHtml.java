@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
 public class GCMHtml {
 
   public static Spanned fromHtml(String source) {
-    String fix_source = replaceAll("<blockquote>|</blockquote>", "", source);
+    String fix_source = eraseBlockQuote(source);
     return Html.fromHtml(fix_source);
   }
 
@@ -23,5 +23,9 @@ public class GCMHtml {
     String retStr = "";
     retStr = Pattern.compile(regex, Pattern.CASE_INSENSITIVE).matcher(text).replaceAll(reql);
     return retStr;
+  }
+
+  public static String eraseBlockQuote(String source) {
+    return replaceAll("<blockquote>|</blockquote>", "", source);
   }
 }

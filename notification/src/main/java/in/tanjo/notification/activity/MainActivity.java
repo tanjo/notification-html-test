@@ -242,7 +242,8 @@ public class MainActivity extends Activity {
   private View.OnClickListener mImgTag = new View.OnClickListener() {
     @Override
     public void onClick(View v) {
-      showNotification("<img src=\"http://www.messentools.com/images/emoticones/android/www.MessenTools.com-Android-03.png\" />");
+      // cannot show image
+      showNotification("<img src=\"http://www.messentools.com/images/emoticones/android/www.MessenTools.com-Android-03.png\" >");
     }
   };
 
