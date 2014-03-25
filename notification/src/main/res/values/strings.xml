@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">notification-test</string>
+    <string name="tag_br">&lt;BR></string>
+    <string name="tag_p">&lt;P></string>
+    <string name="tag_div">&lt;DIV></string>
+    <string name="tag_b">&lt;B></string>
+    <string name="tag_em">&lt;EM></string>
+    <string name="tag_i">&lt;I></string>
+    <string name="tag_strong">&lt;STRONG></string>
+    <string name="tag_cite">&lt;CITE></string>
+    <string name="tag_dfn">&lt;DFN></string>
+    <string name="tag_big">&lt;BIG></string>
+    <string name="tag_small">&lt;SMALL></string>
+    <string name="tag_font">&lt;FONT></string>
+    <string name="tag_blockquote">&lt;BLOCKQUOTE></string>
+    <string name="tag_tt">&lt;TT></string>
+    <string name="tag_a">&lt;A></string>
+    <string name="tag_u">&lt;U></string>
+    <string name="tag_sup">&lt;SUP></string>
+    <string name="tag_sub">&lt;SUB></string>
+    <string name="tag_h1">&lt;H1></string>
+    <string name="tag_h2">&lt;H2></string>
+    <string name="tag_h3">&lt;H3></string>
+    <string name="tag_h4">&lt;H4></string>
+    <string name="tag_h5">&lt;H5></string>
+    <string name="tag_h6">&lt;H6></string>
+    <string name="tag_img">&lt;IMG></string>
+    <string name="tag_code">&lt;CODE></string>
+    <string name="tag_pre">&lt;PRE></string>
+    <string name="tag_hr">&lt;HR></string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

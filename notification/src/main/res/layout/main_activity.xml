@@ -1,0 +1,193 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context="in.tanjo.notification.activity.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/tag_br"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tag_br" />
+
+            <Button
+                android:id="@+id/tag_p"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tag_p" />
+
+            <Button
+                android:id="@+id/tag_div"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tag_div" />
+
+            <Button
+                android:id="@+id/tag_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tag_b" />
+
+            <Button
+                android:id="@+id/tag_em"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tag_em" />
+
+            <Button
+                android:id="@+id/tag_i"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tag_i" />
+
+            <Button
+                android:id="@+id/tag_strong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tag_strong" />
+
+            <Button
+                android:id="@+id/tag_cite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tag_cite" />
+
+            <Button
+                android:id="@+id/tag_dfn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tag_dfn" />
+
+            <Button
+                android:id="@+id/tag_big"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tag_big" />
+
+            <Button
+                android:id="@+id/tag_small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tag_small" />
+
+            <Button
+                android:id="@+id/tag_font"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tag_font" />
+
+            <Button
+                android:id="@+id/tag_blockquote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tag_blockquote" />
+
+            <Button
+                android:id="@+id/tag_tt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tag_tt" />
+
+            <Button
+                android:id="@+id/tag_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tag_a" />
+
+            <Button
+                android:id="@+id/tag_u"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tag_u" />
+
+            <Button
+                android:id="@+id/tag_sup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tag_sup" />
+
+            <Button
+                android:id="@+id/tag_sub"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tag_sub" />
+
+            <Button
+                android:id="@+id/tag_h1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tag_h1" />
+
+            <Button
+                android:id="@+id/tag_h2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tag_h2" />
+
+            <Button
+                android:id="@+id/tag_h3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tag_h3" />
+
+            <Button
+                android:id="@+id/tag_h4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tag_h4" />
+
+            <Button
+                android:id="@+id/tag_h5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tag_h5" />
+
+            <Button
+                android:id="@+id/tag_h6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tag_h6" />
+
+            <Button
+                android:id="@+id/tag_img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tag_img" />
+
+            <Button
+                android:id="@+id/tag_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tag_code" />
+
+            <Button
+                android:id="@+id/tag_pre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tag_pre" />
+
+            <Button
+                android:id="@+id/tag_hr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tag_hr" />
+            
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
